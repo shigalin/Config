@@ -14,7 +14,7 @@
 
 #**********************************************************************
 [proxy_list]
-(^|\.)whatismyip\.com$
+
 # MyList
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
@@ -4799,6 +4799,7 @@
 (^|\.)wlx\.sowiki\.net$
 (^|\.)wn\.com$
 (^|\.)wnacg\.com$
+(^|\.)wnacg\.download$
 (^|\.)wnacg\.org$
 (^|\.)wo\.tc$
 (^|\.)woeser\.com$
@@ -5117,6 +5118,10 @@
 (^|\.)zyzc9\.com$
 (^|\.)zzcartoon\.com$
 (^|\.)zzux\.com$
+
+# 
+(^|\.)whatismyip\.com$
+
 
 # Kakao Talk
 (^|\.)kakao\.com$
