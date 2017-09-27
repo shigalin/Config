@@ -25,6 +25,8 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
+(^|\.)twimg\.org$
+
 #GFWList IP start
 85.17.73.31
 174.142.105.153
@@ -429,7 +431,6 @@
 (^|\.)bb\.ttv\.com\.tw$
 (^|\.)bbc\.co\.uk$
 (^|\.)bbc\.com$
-(^|\.)bbc\.com%2Fzhongwen$
 (^|\.)bbc\.in$
 (^|\.)bbcchinese\.com$
 (^|\.)bbchat\.tv$
@@ -451,7 +452,6 @@
 (^|\.)bbs\.ozchinese\.com$
 (^|\.)bbs\.qmzdd\.com$
 (^|\.)bbs\.sina\.com$
-(^|\.)bbs\.sina\.com%2F$
 (^|\.)bbs\.skykiwi\.com$
 (^|\.)bbs\.sou-tong\.org$
 (^|\.)bbs\.tuitui\.info$
@@ -1020,7 +1020,6 @@
 (^|\.)dailidaili\.com$
 (^|\.)dailymotion\.com$
 (^|\.)dailynews\.sina\.com$
-(^|\.)dailynews\.sina\.com%2F$
 (^|\.)daiphapinfo\.net$
 (^|\.)dajiyuan\.com$
 (^|\.)dajiyuan\.de$
@@ -3075,7 +3074,6 @@
 (^|\.)news\.msn\.com\.tw$
 (^|\.)news\.nationalgeographic\.com$
 (^|\.)news\.now\.com$
-(^|\.)news\.now\.com%2Fhome$
 (^|\.)news\.omy\.sg$
 (^|\.)news\.sina\.com\.hk$
 (^|\.)news\.sina\.com\.tw$
@@ -5125,12 +5123,17 @@
 
 # Kakao Talk
 (^|\.)kakao\.com$
+(^|\.)kakao\.co\.kr$
+(^|\.)kakaocdn\.net$
 
 # Line
-(^|\.)line\.me$
-(^|\.)line-cdn\.net$
+(^|\.)lin\.ee$
 (^|\.)line-apps\.com$
+(^|\.)line-cdn\.net$
+(^|\.)line-scdn\.net$
+(^|\.)line\.me$
 (^|\.)line\.naver\.jp$
+(^|\.)nhncorp\.jp$
 
 # MytvSUPER & Netflix
 (^|\.)\w*nowtv100\w*\.\w*$
@@ -5143,6 +5146,16 @@
 (^|\.)nflximg\.net$
 (^|\.)nflxvideo\.net$
 (^|\.)tvb\.com$
+
+# Whatsapp
+(^|\.)whatsapp\.com$
+(^|\.)whatsapp\.net$
+
+# Twitch
+(^|\.)twitch\.tv$
+(^|\.)ttvnw\.net$
+(^|\.)jtvnw\.net$
+(^|\.)akamaized\.net$
 
 # kakao Talk
 1.201.0.0/24
