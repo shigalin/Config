@@ -1,6 +1,6 @@
 #**********************************************************************
-# 11.03
-# 2017年11月3日11:37:47
+# 11.13
+# 2017年11月13日 23:38:00
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -276,6 +276,7 @@
 (^|\.)(act|adsfile|bugly|buluo|e|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
 (^|\.)res\.imtt\.qq\.com$
+(^|\.)gdt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -498,7 +499,7 @@
 (^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
-(^|\.)(actives|atm|dmapp|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|pl|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
+(^|\.)(actives|atm|dmapp|guanggaoad|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
 (^|\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\.tudou\.com$
 (^|\.)(ad|gamex)\.mobile\.youku\.com$
 (^|\.)(dev-push|push|sdk)\.m\.youku\.com$
@@ -617,7 +618,6 @@
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
 (^|\.)image\.gentags\.com$
-(^|\.)js-agent\.newrelic\.com$
 (^|\.)lm\.admin5\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)m\.12306media\.com$
@@ -669,7 +669,6 @@
 (^|\.)adbana\.com$
 (^|\.)adbxb\.com$
 (^|\.)adchina\.com$
-(^|\.)adcolony\.com$
 (^|\.)adcome\.cn$
 (^|\.)ader\.mobi$
 (^|\.)adform\.net$
@@ -737,7 +736,6 @@
 (^|\.)bugtags\.com$
 (^|\.)buysellads\.com$
 (^|\.)c0563\.com$
-(^|\.)casalemedia\.com$
 (^|\.)cdnmaster\.com$
 (^|\.)chance-ad\.com$
 (^|\.)chanet\.com\.cn$
@@ -775,12 +773,9 @@
 (^|\.)dxpmedia\.com$
 (^|\.)edigitalsurvey\.com$
 (^|\.)eduancm\.com$
-(^|\.)effectivemeasure\.com$
 (^|\.)emarbox\.com$
 (^|\.)exosrv\.com$
 (^|\.)fancyapi\.com$
-(^|\.)fastapi\.net$
-(^|\.)fastclick\.net$
 (^|\.)feixin2\.com$
 (^|\.)flashtalking\.com$
 (^|\.)fraudmetrix.cn
@@ -913,7 +908,6 @@
 (^|\.)social-touch\.com$
 (^|\.)somecoding\.com$
 (^|\.)sponsorpay\.com$
-(^|\.)statcounter\.com$
 (^|\.)stg8\.com$
 (^|\.)switchadhub\.com$
 (^|\.)sycbbs\.com$
@@ -988,7 +982,6 @@
 (^|\.)ysjwj\.com$
 (^|\.)yunjiasu\.com$
 (^|\.)zampdsp\.com$
-(^|\.)zedo\.com$
 (^|\.)zhidian3g\.cn$
 (^|\.)zhiziyun\.com$
 (^|\.)zqzxz\.com$
@@ -998,6 +991,8 @@
 (^|\.)ad-stir\.com$
 (^|\.)ad4game\.com$
 (^|\.)adcloud\.jp$
+(^|\.)adcolony\.com$
+(^|\.)addthis\.com$
 (^|\.)adfurikun\.jp$
 (^|\.)adinall\.com$
 (^|\.)adk2x\.com$
@@ -1007,21 +1002,44 @@
 (^|\.)adriver\.ru$
 (^|\.)adroll\.com$
 (^|\.)adsymptotic\.com$
+(^|\.)airpush\.com$
 (^|\.)am15\.net$
+(^|\.)amobee\.com$
+(^|\.)beintoo\.com$
 (^|\.)bepolite\.eu$
+(^|\.)bidvertiser\.com$
+(^|\.)casalemedia\.com$
+(^|\.)channeladvisor\.com$
 (^|\.)criteo\.com$
+(^|\.)csbew\.com$
 (^|\.)directrev\.com$
 (^|\.)dumedia\.ru$
+(^|\.)effectivemeasure\.com$
 (^|\.)exoclick\.com$
+(^|\.)fastapi\.net$
+(^|\.)fastclick\.net$
 (^|\.)flurry\.com$
+(^|\.)gosquared\.com$
 (^|\.)gtags\.net$
+(^|\.)heyzap\.com$
+(^|\.)histats\.com$
+(^|\.)hitslink\.com$
+(^|\.)hot-mob\.com$
+(^|\.)hyperpromote\.com$
 (^|\.)i-mobile\.co\.jp$
 (^|\.)imrworldwide\.com$
 (^|\.)inmobi\.com$
 (^|\.)jizzads\.com$
 (^|\.)juicyads\.com$
+(^|\.)leadbolt\.net$
+(^|\.)leadboltads\.net$
+(^|\.)leadboltapps\.net$
+(^|\.)leadboltmobile\.net$
 (^|\.)marketgid\.com$
+(^|\.)marketo\.com$
+(^|\.)mdotm\.com$
 (^|\.)mgid\.com$
+(^|\.)millennialmedia\.com$
 (^|\.)mobadme\.jp$
 (^|\.)mobfox\.com$
 (^|\.)mobilityware\.com$
@@ -1031,15 +1049,25 @@
 (^|\.)netshelter\.net$
 (^|\.)nexage\.com$
 (^|\.)plista\.com$
+(^|\.)propellerads\.com$
 (^|\.)quantserve\.com$
 (^|\.)revdepo\.com$
+(^|\.)rubiconproject\.com$
 (^|\.)sape\.ru$
 (^|\.)scorecardresearch\.com$
+(^|\.)segment\.com$
+(^|\.)serving-sys\.com$
+(^|\.)sharethis\.com$
 (^|\.)smartadserver\.com$
+(^|\.)startappexchange\.com$
+(^|\.)statcounter\.com$
+(^|\.)tapjoy\.com$
 (^|\.)tapjoyads\.com$
+(^|\.)turn\.com$
 (^|\.)viglink\.com$
 (^|\.)yadro\.ru$
 (^|\.)yengo\.com$
+(^|\.)zedo\.com$
 
 # 垃圾网站
 (^|\.)appget\.cn$
@@ -1267,6 +1295,7 @@
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)bilibili\.com$
+(^|\.)bilibili\.cn$
 (^|\.)bilibili\.tv$
 (^|\.)bing\.com$
 (^|\.)biqudu\.com$
@@ -7153,6 +7182,21 @@
 # Whatsapp
 (^|\.)whatsapp\.com$
 (^|\.)whatsapp\.net$
+18.194.0.0/15
+34.224.0.0/12
+54.242.0.0/15
+50.22.198.204/30
+208.43.122.128/27
+108.168.174.0/16
+173.192.231.32/27
+158.85.5.192/27
+174.37.243.0/16
+158.85.46.128/27
+173.192.222.160/27
+184.173.128.0/17
+158.85.224.160/27
+75.126.150.0/16
+69.171.235.0/16
 
 # Twitch
 (^|\.)twitch\.tv$
