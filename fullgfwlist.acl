@@ -1,6 +1,6 @@
 #**********************************************************************
-# 10.3
-# 2017年10月3日 22:14:37
+# 11.13
+# 2017年11月13日 23:38:00
 # @leosam1995,@BROBIRD 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -26,6 +26,13 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 (^|\.)eu-west-1\.compute\.amazonaws\.com$
+
+(^|\.)eleonorabonucci\.com$
+(^|\.)matchesfashion\.com$
+(^|\.)branch\.io$
+(^|\.)myfonts\.net$
+(^|\.)rtve\.es$
+(^|\.)elpais\.com$
 
 #GFWList IP start
 85.17.73.31
@@ -73,6 +80,21 @@
 36.234.188.130
 114.199.145.219
 220.132.16.173
+
+# 国外域名关键字
+(^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*blogspot\w*\.\w*$
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
+(^|\.)\w*whatsapp\w*\.\w*$
 
 #GFWList
 (^|\.)(.*)\.2\.bahamut\.com\.tw$
@@ -139,7 +161,6 @@
 (^|\.)3d-game\.com$
 (^|\.)3proxy\.ru$
 (^|\.)3ren\.ca$
-(^|\.)3tui\.net$
 (^|\.)4bluestones\.biz$
 (^|\.)4chan\.org$
 (^|\.)4dq\.com$
@@ -444,7 +465,6 @@
 (^|\.)bartvpn\.com$
 (^|\.)bash-hackers\.org$
 (^|\.)bastillepost\.com$
-(^|\.)bayvoice\.net$
 (^|\.)bb-chat\.tv$
 (^|\.)bb\.ttv\.com\.tw$
 (^|\.)bbc\.co\.uk$
@@ -512,7 +532,6 @@
 (^|\.)bettween\.com$
 (^|\.)betvictor\.com$
 (^|\.)bewww\.net$
-(^|\.)beyondfirewall\.com$
 (^|\.)bfnn\.org$
 (^|\.)bfsh\.hk$
 (^|\.)bgvpn\.com$
@@ -831,7 +850,6 @@
 (^|\.)chinacitynews\.be$
 (^|\.)chinacomments\.org$
 (^|\.)chinadialogue\.net$
-(^|\.)chinadigitaltimes\.net$
 (^|\.)chinaelections\.org$
 (^|\.)chinaeweekly\.com$
 (^|\.)chinafreepress\.org$
@@ -1004,7 +1022,6 @@
 (^|\.)crazys\.cc$
 (^|\.)crchina\.org$
 (^|\.)crd-net\.org$
-(^|\.)creaders\.net$
 (^|\.)creadersnet\.com$
 (^|\.)creativelab5\.com$
 (^|\.)cristyli\.com$
@@ -3662,10 +3679,6 @@
 (^|\.)reutersmedia\.net$
 (^|\.)revleft\.com$
 (^|\.)revver\.com$
-(^|\.)rfa\.org$
-(^|\.)rfachina\.com$
-(^|\.)rfamobile\.org$
-(^|\.)rfaweb\.org$
 (^|\.)rferl\.org$
 (^|\.)rfi\.fr$
 (^|\.)rfi\.my$
@@ -3946,8 +3959,6 @@
 (^|\.)soulcaliburhentai\.net$
 (^|\.)soumo\.info$
 (^|\.)soundcloud\.com$
-(^|\.)soundofhope\.kr$
-(^|\.)soundofhope\.org$
 (^|\.)soup\.io$
 (^|\.)soupofmedia\.com$
 (^|\.)sourceforge\.net$
