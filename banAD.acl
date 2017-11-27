@@ -1,6 +1,6 @@
 #**********************************************************************
-# 11.13
-# 2017年11月13日 23:38:00
+# 11.22
+# 2017年11月22日08:58:50
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -109,10 +109,10 @@
 (^|\.)(brandshow|jing|track)\.58\.com$
 
 # Ali
-(^|\.)(adash|adsh|adashx4yt|adash-c|ai|apoll|re|rj|simaba)\.m\.taobao\.com$
-(^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d|nbsdk-baichuan)\.alicdn\.com$
+(^|\.)(adash|adsh|adashx4yt|adash-c|ai|re|rj|simaba)\.m\.taobao\.com$
+(^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
-(^|\.)(nbsdk-baichuan|sdkinit|simaba|tyh)\.taobao\.com$
+(^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)adash-c\.ut\.taobao\.com$
@@ -130,7 +130,7 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adm|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry|feed)\.baidu\.com$
+(^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
@@ -250,7 +250,6 @@
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
 (^|\.)(r|security)\.browser\.miui\.com$
 (^|\.)adv\.sec\.miui\.com$
-(^|\.)mb\.yidianzixun\.com$
 (^|\.)tracking\.miui\.com$
 (^|\.)union\.mi\.com$
 
@@ -1294,13 +1293,14 @@
 (^|\.)battle\.net$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
-(^|\.)bilibili\.com$
 (^|\.)bilibili\.cn$
+(^|\.)bilibili\.com$
 (^|\.)bilibili\.tv$
 (^|\.)bing\.com$
 (^|\.)biqudu\.com$
 (^|\.)biquge\.com$
 (^|\.)bitauto\.com$
+(^|\.)bootcss\.com$
 (^|\.)chinacache\.net$
 (^|\.)cibntv\.net$
 (^|\.)clouddn\.com$
@@ -1358,6 +1358,7 @@
 (^|\.)kankan\.com$
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
+(^|\.)kuaidi100\.com$
 (^|\.)lecloud\.com$
 (^|\.)lemicp\.com$
 (^|\.)letv\.com$
