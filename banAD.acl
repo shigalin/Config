@@ -6983,7 +6983,10 @@
 (^|\.)tvb\.com$
 (^|\.)mytvsuper\.com$
 (^|\.)dmm\.co\.jp$
-(^|\.)itunes\.apple\.com$
+(^|\.)apple\.com$
+(^|\.)mzstatic\.com$
+(^|\.)me\.com$
+(^|\.)icloud\.com$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
