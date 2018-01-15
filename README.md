@@ -1,4 +1,5 @@
 # Config
+* 无聊建了个频道 https://t.me/useConfig
 * 收集并修改的配置文件
 * Quantumult.conf：主要是同步https://github.com/lhie1/Surge/blob/master/Shadowrocket.conf 配置，根据Filter Action添加相关服务服务器选择，如Apple，Netflix
 
