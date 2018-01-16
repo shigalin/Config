@@ -4,6 +4,8 @@
 * Quantumult.conf（带Filter Action）：主要是同步https://github.com/lhie1/Surge/blob/master/Shadowrocket.conf 配置，根据Filter Action添加相关服务服务器选择，如Apple，Netflix
 * Quantumult_gfwlist.conf：Quantumult规则gfwlist版（带Filter Action），默认直连
 * gfwlist.conf：规则gfwlist版，默认直连，支持Quantumult（不带Filter Action）和Pepi订阅
+* banAD.acl：适用Android上SSR的规则，默认代理，屏蔽广告
+* fullgfwlist.acl：适用Android上SSR、影梭的规则，gfwlist版，默认直连
 * Quantumult.conf 等同于 https://github.com/lhie1/Surge/blob/master/Quantumult.conf 
 * Quantumult_URL.conf 等同于 https://github.com/lhie1/Surge/blob/master/Quantumult_URL.conf 
 

@@ -26,6 +26,9 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 (^|\.)eu-west-1\.compute\.amazonaws\.com$
+(^|\.)ec2-52\w*\.compute-1\.amazonaws\.com$
+(^|\.)fra53\.r\.cloudfront\.net$
+(^|\.)textnow\.me$
 
 (^|\.)allcp\.net$
 (^|\.)eleonorabonucci\.com$
