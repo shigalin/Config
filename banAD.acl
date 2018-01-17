@@ -1194,6 +1194,10 @@
 [bypass_list]
 # 直连列表
 
+#MyList
+(^|\.)fonts\.googleapis\.com$
+(^|\.)fonts\.gstatic\.com$
+
 # CN域名直连
 ^.*\.cn$
 
