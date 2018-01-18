@@ -18,7 +18,7 @@
 7. 在Filter替换过程中，注意选择**Apple、PayPal服务**是选择直连或者代理，包含iCloud服务和App Store下载等。其他如果不需要默认选项即可
 
 # Quantumult的几个配置REJECT规则的区别
-* Quantumult.conf广告屏蔽的规则最多最全
+* Quantumult.conf广告屏蔽的规则最多最全，即lhie1大佬的规则
 * Quantumult_Lite.conf已删除所有IP-CIDR的REJECT规则，未来同步lhie1删除其他REJECT规则，一般情况只删除REJECT规则不增加
 * Quantumult_gfwlist.conf只屏蔽了谷歌分析和360分析的域名
 
