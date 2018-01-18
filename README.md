@@ -1,13 +1,12 @@
 # Config
 * 无聊建了个频道 https://t.me/useConfig
 * 收集并修改的配置文件
-* Quantumult.conf（带Filter Action）：主要是同步https://github.com/lhie1/Surge/blob/master/Shadowrocket.conf 配置，根据Filter Action添加相关服务服务器选择，如Apple，Netflix
-* Quantumult_Lite.conf（不带Filter Action）：主要是同步https://github.com/lhie1/Surge/blob/master/Shadowrocket.conf 配置，尽量简化广告规则
-* Quantumult_gfwlist.conf（带Filter Action）：Quantumult规则gfwlist版，默认直连
-* banAD.acl：适用Android上SSR的规则，默认代理，屏蔽广告
-* fullgfwlist.acl：适用Android上SSR、影梭的规则，gfwlist版
-* Quantumult.conf 等同于 https://github.com/lhie1/Surge/blob/master/Quantumult.conf 
-* Quantumult_URL.conf 等同于 https://github.com/lhie1/Surge/blob/master/Quantumult_URL.conf 
+* [Quantumult.conf](https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult.conf)（带Filter Action）：主要是同步lhie1_Shadowrocket.conf 配置，根据Filter Action添加相关服务服务器选择，如Apple，Netflix
+* [Quantumult_URL.conf](https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult_URL.conf)：同步lhie1.Hostname.conf + lhie1.URL_REJECT.conf配置
+* [Quantumult_Lite.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult_Lite.conf)（不带Filter Action）：主要是同步lhie1_Shadowrocket.conf 配置，尽量简化广告规则
+* [Quantumult_gfwlist.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult_gfwlist.conf)（带Filter Action）：Quantumult规则gfwlist版，默认直连
+* [banAD.acl](https://raw.githubusercontent.com/shigalin/Config/master/banAD.acl)：适用Android上SSR的规则，默认代理，屏蔽广告
+* [fullgfwlist.acl](https://raw.githubusercontent.com/shigalin/Config/master/fullgfwlist.acl)：适用Android上SSR、影梭的规则，gfwlist版
 
 # Quantumult规则使用：
 1. 进入Settings — Favorites
