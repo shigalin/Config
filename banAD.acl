@@ -11,9 +11,9 @@
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
 # [bypass_all] 默认直连
-# [outbound_block_list] 禁止访问列表 在26行
-# [bypass_list] 直连列表 在723多行
-# [proxy_list] 代理列表 在3371多行
+# [outbound_block_list] 禁止访问列表 在25行
+# [bypass_list] 直连列表 在1207多行
+# [proxy_list] 代理列表 在6874多行
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
 #
 #**********************************************************************
@@ -205,9 +205,8 @@
 (^|\.)service\.urchin\.com$
 
 # JD
-(^|\.)(c-nfa|du|img-x|jrclick|jzt|policy)\.jd\.com$
+(^|\.)(c-nfa|img-x|jrclick|jzt|policy)\.jd\.com$
 (^|\.)ads\.union\.jd\.com$
-(^|\.)click\.jr\.jd\.com$
 (^|\.)cps\.360buy\.com$
 (^|\.)stat\.m\.jd\.com$
 
@@ -366,7 +365,17 @@
 (^|\.)upgrade\.xl9\.xunlei\.com$
 
 # Yahoo
-(^|\.)beap\.gemini\.yahoo\.com$
+(^|\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\.yahoo\.com$
+(^|\.)(analytics|locdrop|onepush)\.query\.yahoo\.com$
+(^|\.)(ard|ane|yads)\.yahoo\.co\.jp$
+(^|\.)(js-apac-ss|partnerads)\.ysm\.yahoo\.com$
+(^|\.)ad\.wretch\.cc$
+(^|\.)clicks\.beap\.bc\.yahoo\.com$
+(^|\.)doubleplay-conf-yql\.media\.yahoo\.com$
+(^|\.)flurry\.com$
+(^|\.)m\.yap\.yahoo\.com$
+(^|\.)uservoice\.com$
+(^|\.)ws\.progrss\.yahoo\.com$
 
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
@@ -700,6 +709,7 @@
 (^|\.)adwhirl\.com$
 (^|\.)adwo\.com$
 (^|\.)adxmi\.com$
+(^|\.)adyun\.com$
 (^|\.)adzerk\.net$
 (^|\.)agrantsem\.com$
 (^|\.)ajapk\.com$
@@ -999,6 +1009,7 @@
 (^|\.)adnxs\.com$
 (^|\.)adriver\.ru$
 (^|\.)adroll\.com$
+(^|\.)adservice\.com$
 (^|\.)adsymptotic\.com$
 (^|\.)airpush\.com$
 (^|\.)am15\.net$
@@ -1029,6 +1040,7 @@
 (^|\.)inmobi\.com$
 (^|\.)jizzads\.com$
 (^|\.)juicyads\.com$
+(^|\.)leadbolt\.com$
 (^|\.)leadbolt\.net$
 (^|\.)leadboltads\.net$
 (^|\.)leadboltapps\.net$
@@ -1068,6 +1080,7 @@
 (^|\.)zedo\.com$
 
 # 垃圾网站
+(^|\.)11h5\.com$
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
@@ -1284,6 +1297,7 @@
 (^|\.)360doc\.com$
 (^|\.)360safe\.com$
 (^|\.)36kr\.com$
+(^|\.)56\.com$
 (^|\.)58\.com$
 (^|\.)abercrombie\.com$
 (^|\.)acfun\.tv$
@@ -6886,7 +6900,6 @@
 (^|\.)tumbex\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-(^|\.)twimg\.org$
 (^|\.)ping\.pe$
 (^|\.)tvb\.com$
 (^|\.)mytvsuper\.com$
@@ -7019,6 +7032,8 @@
 (^|\.)trustasiassl\.com$
 (^|\.)tumblr\.co$
 (^|\.)tumblr\.com$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
 (^|\.)txmblr\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
@@ -7139,12 +7154,9 @@
 203.174.77.0/24
 
 # Telegram
-109.239.140.0/24
-149.154.160.0/22
-149.154.164.0/22
-149.154.168.0/22
-149.154.172.0/22
 91.108.0.0/16
+109.239.140.0/24
+149.154.160.0/20
 
 #ResiloSync
 173.244.217.42/32
