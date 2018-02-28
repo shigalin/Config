@@ -2,7 +2,7 @@
 * 无聊建了个频道 https://t.me/useConfig
 * 收集并修改的配置文件
 * **[Quantumult.conf](https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult/Quantumult.conf)**（带Filter Action）：【最推荐】lhie1规则，根据Filter Action添加相关服务服务器选择，如Apple，Netflix
-* **[Quantumult_URL.conf](https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult_URL.conf)**：同步lhie1.Hostname.conf + lhie1.URL_REJECT.conf配置
+* **[Quantumult_URL.conf](https://raw.githubusercontent.com/lhie1/Surge/master/Quantumult/Quantumult_URL.conf)**：同步lhie1.Hostname.conf + lhie1.URL_REJECT.conf配置
 * **[Quantumult_Lite.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult_Lite.conf)**（不带Filter Action）：主要是同步lhie1_Shadowrocket.conf 配置，尽量简化广告规则
 * **[Quantumult_Plus.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult_Plus.conf)**（带Filter Action）：尽量做到FINAL选择DIRECT也不影响使用各类服务
 * **[banAD.acl](https://raw.githubusercontent.com/shigalin/Config/master/banAD.acl)**：适用Android上SSR的规则，默认代理，屏蔽广告
