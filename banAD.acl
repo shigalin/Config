@@ -133,11 +133,10 @@
 # Baidu
 (^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pos|pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
+(^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
 (^|\.)baidu9635\.com$
 (^|\.)baikebcs\.bdimg\.com$
-(^|\.)boscdn\.bpc\.baidu\.com$
 (^|\.)cpro\.baidustatic\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
@@ -149,7 +148,6 @@
 (^|\.)qchannel0\d\.cn$
 (^|\.)res\.limei\.com$
 (^|\.)shifen\.com$
-(^|\.)static\.map\.bdimg\.com$
 (^|\.)ubmcmm\.baidustatic\.com$
 (^|\.)ulog\.imap\.baidu\.com$
 (^|\.)wisepush\.video\.baidu\.com$
@@ -166,6 +164,7 @@
 (^|\.)o\.if\.qidian\.com$
 (^|\.)s1\.cmfu\.com$
 (^|\.)ut2\.shuqistat\.com$
+(^|\.)sdk\.cferw\.com$
 
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
@@ -379,7 +378,7 @@
 (^|\.)ws\.progrss\.yahoo\.com$
 
 # Zhihu
-(^|\.)(sugar|zhihu-web-analytics|zhstatic)\.zhihu\.com$
+(^|\.)(sugar|zhihu-web-analytics)\.zhihu\.com$
 
 # Ads in Video apps********************下面都是
 
@@ -460,7 +459,7 @@
 
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
-(^|\.)(aty|bd|click|click2|ctr|mb|pv|pb|wl|um)\.hd\.sohu\.com$
+(^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
 (^|\.)(aty|hui|wan|yule|pv)\.sohu\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
@@ -623,7 +622,6 @@
 (^|\.)hosting\.miarroba\.info$
 (^|\.)iadsdk\.apple\.com$
 (^|\.)image\.gentags\.com$
-(^|\.)lm\.admin5\.com$
 (^|\.)log\.outbrain\.com$
 (^|\.)m\.12306media\.com$
 (^|\.)n\.cosbot\.cn$
@@ -687,7 +685,6 @@
 (^|\.)adkmob\.com$
 (^|\.)adlive\.cn$
 (^|\.)adlocus\.com$
-(^|\.)admin5\.com$
 (^|\.)admin6\.com$
 (^|\.)admon\.cn$
 (^|\.)adpolestar\.net$
@@ -1090,6 +1087,8 @@
 (^|\.)coinhive\.com$
 (^|\.)minghui\.org$
 (^|\.)win-stock\.com\.cn$
+(^|\.)wanfeng1\.com$
+(^|\.)zantainet\.com$
 
 ### 运营商广告
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn
@@ -1165,6 +1164,7 @@
 120.55.199.139/32
 120.80.57.123/32
 120.132.63.203/32
+120.198.116.0/24
 121.43.75.169/32
 121.201.11.95/32
 121.201.108.2/32
@@ -1206,14 +1206,11 @@
 221.204.213.222/32
 221.228.17.152/32
 221.228.214.101/32
+222.73.156.235/32
 
 #**********************************************************************
 [bypass_list]
 # 直连列表
-
-#MyList
-(^|\.)fonts\.googleapis\.com$
-(^|\.)fonts\.gstatic\.com$
 
 # CN域名直连
 ^.*\.cn$
@@ -6918,22 +6915,17 @@
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.cc$
+(^|\.)cloudfront\.net$
+(^|\.)dmm\.co\.jp$
 (^|\.)gvt\w\.com$
 (^|\.)ip138\.com$
 (^|\.)microsoft\.com$
-(^|\.)cloudfront\.net$
+(^|\.)ping\.pe$
 (^|\.)s3\.amazonaws\.com$
 (^|\.)tumbex\.com$
+(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
-(^|\.)ping\.pe$
-(^|\.)tvb\.com$
-(^|\.)mytvsuper\.com$
-(^|\.)dmm\.co\.jp$
-(^|\.)apple\.com$
-(^|\.)mzstatic\.com$
-(^|\.)me\.com$
-(^|\.)icloud\.com$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
@@ -6959,6 +6951,7 @@
 (^|\.)adobedtm\.com$
 (^|\.)aolcdn\.com$
 (^|\.)apkpure\.com$
+(^|\.)app-measurement\.com$
 (^|\.)appspot\.com$
 (^|\.)archive\.org$
 (^|\.)armorgames\.com$
@@ -6996,6 +6989,7 @@
 (^|\.)eu-west-1\.console\.aws\.amazon\.com$
 (^|\.)eurekavpt\.com$
 (^|\.)facebook\.com$
+(^|\.)fastmail\.com$
 (^|\.)fb\.com$
 (^|\.)fb\.me$
 (^|\.)fbcdn\.net$
@@ -7005,6 +6999,7 @@
 (^|\.)gfx\.ms$
 (^|\.)gist\.github\.com$
 (^|\.)gongm\.in$
+(^|\.)googleapis\.cn$
 (^|\.)id\.heroku\.com$
 (^|\.)instagram\.com$
 (^|\.)io\.io$
@@ -7012,6 +7007,7 @@
 (^|\.)ixquick\.com$
 (^|\.)jtvnw\.net$
 (^|\.)kat\.cr$
+(^|\.)kik\.com$
 (^|\.)kobo\.com$
 (^|\.)kobobooks\.com$
 (^|\.)licdn\.com$
@@ -7052,6 +7048,7 @@
 (^|\.)t\.me$
 (^|\.)telegram\.me$
 (^|\.)telegram\.org$
+(^|\.)textnow\.com$
 (^|\.)thefacebook\.com$
 (^|\.)thepiratebay\.org$
 (^|\.)torproject\.org$
@@ -7119,25 +7116,38 @@
 (^|\.)nflximg\.net$
 (^|\.)nflxvideo\.net$
 (^|\.)tvb\.com$
-45.43.9.10/24
-66.197.128.0/17
+8.41.4.0/24
+23.246.0.0/18
+37.77.184.0/21
+45.57.0.0/17
+207.45.72.0/22
 64.120.128.0/17
-45.57.0.0/16
-37.77.0.0/16
-23.246.0.0/16
-198.45.0.0/16
-198.38.0.0/16
-192.173.0.0/16
-185.9.0.0/16
-185.2.0.0/16
-108.175.0.0/16
-54.175.0.0/16
-54.85.0.0/16
-23.78.0.0/16
-34.192.0.0/16
-54.86.0.0/16
-52.0.0.0/8
-54.0.0.0/16
+66.197.128.0/17
+69.53.224.0/19
+108.175.32.0/20
+185.2.220.0/22
+185.9.188.0/22
+192.173.64.0/18
+198.38.96.0/19
+198.45.48.0/20
+69.53.230.0/24
+69.53.231.0/24
+69.53.233.0/24
+69.53.235.0/24
+69.53.240.0/24
+69.53.241.0/24
+69.53.242.0/24
+69.53.245.0/24
+69.53.246.0/24
+69.53.254.0/24
+192.173.64.0/24
+192.173.65.0/24
+192.173.66.0/24
+192.173.67.0/24
+192.173.68.0/24
+192.173.69.0/24
+208.75.76.0/24
+
 
 # Onenote
 (^|\.)live\.net$
@@ -7191,3 +7201,13 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
+#List
+(^|\.)ping\.pe$
+(^|\.)tvb\.com$
+(^|\.)mytvsuper\.com$
+(^|\.)dmm\.co\.jp$
+(^|\.)apple\.com$
+(^|\.)mzstatic\.com$
+(^|\.)me\.com$
+(^|\.)icloud\.com$
