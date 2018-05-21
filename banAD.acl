@@ -1,6 +1,6 @@
 #**********************************************************************
-# 04.12
-# 2018年4月12日09:14:04
+# 05.20
+# 2018年5月20日21:12:52
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -35,9 +35,11 @@
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
 (^|\.)\w*adsensor\w*\..*$
+(^|\.)\w*adservice\w*\..*$
 (^|\.)\w*adsh\w*\..*$
 (^|\.)\w*adsmogo\w*\..*$
 (^|\.)\w*adsrvmedia\w*\..*$
+(^|\.)\w*adsserving\w*\..*$
 (^|\.)\w*adwords\w*\..*$
 (^|\.)\w*analysis\w*\..*$
 (^|\.)\w*analytics\w*\..*$
@@ -68,7 +70,7 @@
 (^|\.)(analytics|img1|img2|mimg|push)\.126\.net$
 (^|\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|impservice2|impservice|rlogs|union|ydpushserver)\.youdao\.com$
 (^|\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\.corp\.youdao\.com$
-(^|\.)haitaoad\.nosdn\.127\.net$
+(^|\.)(iadmat|haitaoad)\.nosdn\.127\.net$
 (^|\.)impservice\.(chnl|dict|dictapp|ictvista|dictweb|dictword|mail|union)\.youdao\.com$
 (^|\.)ir\.mail\.126\.com$
 (^|\.)ir\.mail\.yeah\.net$
@@ -124,7 +126,6 @@
 (^|\.)(appdownload|afp|atanx|atanx2|gma|gtms\d\d)\.alicdn\.com$
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
-(^|\.)a\.alimama\.cn$
 (^|\.)acjs\.aliyun\.com$
 (^|\.)adash-c\.ut\.taobao\.com$
 (^|\.)adashxgc\.ut\.taobao\.com$
@@ -141,7 +142,7 @@
 (^|\.)yiliao\.hupan\.com$
 
 # Baidu
-(^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
+(^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
 (^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
 (^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
 (^|\.)ashifen\.com$
@@ -150,6 +151,7 @@
 (^|\.)cpro\.baidustatic\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
+(^|\.)fc-\.cdn\.bcebos\.com$
 (^|\.)itsdata\.map\.baidu\.com$
 (^|\.)log\.nuomi\.com$
 (^|\.)mg09\.zhaopin\.com$
@@ -171,16 +173,24 @@
 (^|\.)(cj|game|tongji)\.qidian\.com$
 (^|\.)aishowbger\.com$
 (^|\.)api\.itaoxiaoshuo\.com$
+(^|\.)bbcoe\.cn$
+(^|\.)dkeyn\.com$
 (^|\.)drdwy\.com$
 (^|\.)e701\.net$
+(^|\.)e\.aa985\.cn$
 (^|\.)e\.v02u9\.cn$
+(^|\.)ehxyz\.com$
 (^|\.)ethod\.gzgmjcx\.com$
+(^|\.)focuscat\.com$
 (^|\.)jyd\.fjzdmy\.com$
 (^|\.)m\.ourlj\.com$
 (^|\.)m\.txtxr\.com$
+(^|\.)m\.vsxet\.com$
+(^|\.)miam4\.cn$
 (^|\.)o\.if\.qidian\.com$
 (^|\.)p\.vq6nsu\.cn$
 (^|\.)picture\.duokan\.com$
+(^|\.)pyerc\.com$
 (^|\.)s1\.cmfu\.com$
 (^|\.)sc\.shayugg\.com$
 (^|\.)sdk\.cferw\.com$
@@ -189,11 +199,15 @@
 (^|\.)xgcsr\.com$
 (^|\.)xjq\.jxmqkj\.com$
 (^|\.)xpe\.cxaerp\.com$
+(^|\.)xtzxmy\.com$
 (^|\.)xyrkl\.com$
 (^|\.)zhuanfakong\.com$
 
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
+
+# Douyin
+(^|\.)log\.snssdk\.com$
 
 # Duomi
 (^|\.)ad\.duomi\.com$
@@ -237,7 +251,7 @@
 (^|\.)stat\.m\.jd\.com$
 
 # Kugou
-(^|\.)(adserviceretry|bssdl|bssdlbig|d|downmobile|fanxing|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
+(^|\.)(bssdl|bssdlbig|d|downmobile|fanxing|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\.kugou\.com$
 (^|\.)(msg|push|update)\.mobile\.kugou\.com$
 (^|\.)ads\.service\.kugou\.com$
 (^|\.)gcapi\.sy\.kugou\.com$
@@ -295,10 +309,8 @@
 
 # QQ
 (^|\.)\w*omgmta\w*\.\w*$
-(^|\.)(act|adsfile|bugly|buluo|e|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
+(^|\.)(act|adsfile|bugly|buluo|monitor|pingma|pingtcss|report|tajs|tcss|uu)\.qq\.com$
 (^|\.)ad\.qun\.qq\.com$
-(^|\.)res\.imtt\.qq\.com$
-(^|\.)gdt\.qq\.com$
 
 # RenRen
 (^|\.)jebe\.renren\.com$
@@ -307,7 +319,7 @@
 
 # Sina
 (^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|u1\.img|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|adbox|adm|d\d|dcads|dmp|leju|sax|sax\d|slog)\.sina\.com(\.cn|)$
+(^|\.)(ad|ad\d|adbox|adm|d\d|dcads|dmp|leju|sax|sax\d|slog)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game|wax)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -352,7 +364,9 @@
 (^|\.)u\.ucfly\.com$
 
 # Weifeng
+(^|\.)aoodoo\.feng\.com$
 (^|\.)fengbuy\.com$
+(^|\.)push\.feng\.com$
 (^|\.)we\.tm$
 
 # WPS Office
@@ -722,7 +736,6 @@
 (^|\.)appdriver\.cn$
 (^|\.)appjiagu\.com$
 (^|\.)applifier\.com$
-(^|\.)applovin\.com$
 (^|\.)appsflyer\.com$
 (^|\.)atdmt\.com$
 (^|\.)baifendian\.com$
@@ -1119,12 +1132,16 @@
 
 # 垃圾网站
 (^|\.)11h5\.com$
+(^|\.)1kxun\.mobi$
+(^|\.)519397\.com$
+(^|\.)626uc\.com$
+(^|\.)915\.com$
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 (^|\.)coinhive\.com$
 (^|\.)minghui\.org$
-(^|\.)win-stock\.com\.cn$
 (^|\.)wanfeng1\.com$
+(^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
 
 ### 运营商广告
@@ -1271,6 +1288,7 @@
 (^|\.)ecitic\.com$
 (^|\.)ewqcxz\.com$
 (^|\.)fang\.com$
+(^|\.)fantasy\.tv$
 (^|\.)feng\.com$
 (^|\.)fir\.im$
 (^|\.)frdic\.com$
@@ -1425,6 +1443,7 @@
 (^|\.)zhihu\.com$
 (^|\.)zhimg\.com$
 (^|\.)zimuzu\.tv$
+(^|\.)zmz00\d\.com$
 
 #**********************************************************************
 # 本地/局域网地址
