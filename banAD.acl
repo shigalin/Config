@@ -280,15 +280,15 @@
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
 # Miui 小米
-(^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
-(^|\.)(a|wtradv)\.market\.xiaomi\.com$
-(^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
-(^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
-(^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
-(^|\.)(r|security)\.browser\.miui\.com$
-(^|\.)adv\.sec\.miui\.com$
-(^|\.)tracking\.miui\.com$
-(^|\.)union\.mi\.com$
+#(^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
+#(^|\.)(a|wtradv)\.market\.xiaomi\.com$
+#(^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
+#(^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
+#(^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
+#(^|\.)(r|security)\.browser\.miui\.com$
+#(^|\.)adv\.sec\.miui\.com$
+#(^|\.)tracking\.miui\.com$
+#(^|\.)union\.mi\.com$
 
 # Moji
 (^|\.)ad\.api\.moji\.com$
