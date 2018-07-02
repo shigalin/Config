@@ -206,9 +206,6 @@
 # Dangdang
 (^|\.)(a|click|schprompt|t)\.dangdang\.com$
 
-# Douyin
-(^|\.)log\.snssdk\.com$
-
 # Duomi
 (^|\.)ad\.duomi\.com$
 (^|\.)boxshows\.com$
@@ -1266,6 +1263,7 @@
 (^|\.)360\.com$
 (^|\.)360buy\.com$
 (^|\.)360buyimg\.com$
+(^|\.)356884\.com$
 (^|\.)360doc\.com$
 (^|\.)360safe\.com$
 (^|\.)36kr\.com$
@@ -1281,6 +1279,7 @@
 (^|\.)autonavi\.com$
 (^|\.)baidu\.com$
 (^|\.)battle\.net$
+(^|\.)bet365\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
 (^|\.)bilibili\.cn$
