@@ -1,6 +1,6 @@
 #**********************************************************************
-# 07.29
-# 2018年7月29日08:18:31
+# 08.26
+# 2018年8月26日19:23:06
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -140,28 +140,160 @@
 (^|\.)userimg\.qunar\.com$
 (^|\.)yiliao\.hupan\.com$
 
+# Adobe
+(^|\.)3dns-2\.adobe\.com$
+(^|\.)3dns-3\.adobe\.com$
+(^|\.)activate\.adobe\.com$
+(^|\.)activate\.wip3\.adobe\.com$
+(^|\.)activate-sea\.adobe\.com$
+(^|\.)activate-sjc0\.adobe\.com$
+(^|\.)adobe-dns\.adobe\.com$
+(^|\.)adobe-dns-2\.adobe\.com$
+(^|\.)adobe-dns-3\.adobe\.com$
+(^|\.)ereg\.adobe\.com$
+(^|\.)ereg\.wip3\.adobe\.com$
+(^|\.)geo2\.adobe\.com$
+(^|\.)hl2rcv\.adobe\.com$
+(^|\.)hlrcv\.stage\.adobe\.com$
+(^|\.)lm\.licenses\.adobe\.com$
+(^|\.)lmlicenses\.wip4\.adobe\.com$
+(^|\.)na1r\.services\.adobe\.com$
+(^|\.)na2m-pr\.licenses\.adobe\.com$
+(^|\.)practivate\.adobe\.com$
+(^|\.)wip3\.adobe\.com$
+(^|\.)wwis-dubc1-vip60\.adobe\.com$
+
 # Baidu
-(^|\.)(a|adm|als|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.com$
-(^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.com$
-(^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.com$
+(^|\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu|cpu-admin|crs|drmcmm|e|eclick|eiv|entry)\.baidu\.(com|cn)$
+(^|\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\.baidu\.(com|cn)$
+(^|\.)(pups|rj|rp|spcode|tk|tongji|tuisong|ucstat|ufosdk|union|utility|utk|videopush|wangmeng|wm|znsv)\.baidu\.(com|cn)$
+(^|\.)ad\.duapps\.com$
+(^|\.)ad\.player\.baidu\.com$
+(^|\.)adx\.xiaodutv\.com$
+(^|\.)ae\.bdstatic\.com$
+(^|\.)antivirus\.baidu\.com$
+(^|\.)api\.cpu\.baidu\.com$
+(^|\.)api\.mobula\.sdk\.duapps\.com$
 (^|\.)ashifen\.com$
+(^|\.)b\.bdstatic\.com$
+(^|\.)baichuan\.baidu\.com$
 (^|\.)baidu9635\.com$
+(^|\.)baidustatic\.com$
+(^|\.)baidutv\.baidu\.com$
 (^|\.)baikebcs\.bdimg\.com$
+(^|\.)banlv\.baidu\.com$
+(^|\.)bar\.baidu\.com$
+(^|\.)bce\.baidu\.com$
+(^|\.)bdimg\.share\.baidu\.com$
+(^|\.)bdplus\.baidu\.com$
+(^|\.)bj\.bcebos\.com$
+(^|\.)btlaunch\.baidu\.com$
+(^|\.)cleaner\.baidu\.com$
+(^|\.)click\.bes\.baidu\.com$
+(^|\.)click\.hm\.baidu\.com$
+(^|\.)click\.qianqian\.com$
+(^|\.)cm\.baidu\.com$
+(^|\.)cm\.pos\.baidu\.com$
 (^|\.)cpro\.baidustatic\.com$
 (^|\.)cpro\.tieba\.baidu\.com$
 (^|\.)cpro\.zhidao\.baidu\.com$
+(^|\.)datax\.baidu\.com$
+(^|\.)dl-vip\.bav\.baidu\.com$
+(^|\.)dl-vip\.pcfaster\.baidu\.co\.th$
+(^|\.)dl1sw\.baidu\.com$
+(^|\.)dl2\.bav\.baidu\.com$
+(^|\.)dl\.client\.baidu\.com$
+(^|\.)dl\.ops\.baidu\.com$
+(^|\.)dlsw\.baidu\.com$
+(^|\.)dlsw\.br\.baidu\.com$
+(^|\.)download\.bav\.baidu\.com$
+(^|\.)download\.sd\.baidu\.com$
+(^|\.)drmcmm\.baidu\.com$
+(^|\.)dup\.baidustatic\.com$
+(^|\.)dxp\.baidu\.com$
+(^|\.)dzl\.baidu\.com$
+(^|\.)ecma\.bdimg\.com$
+(^|\.)ecmb\.bdimg\.com$
+(^|\.)ecmc\.bdimg\.com$
+(^|\.)em\.baidu\.com$
+(^|\.)ers\.baidu\.com$
+(^|\.)f10\.baidu\.com$
 (^|\.)fc-\.cdn\.bcebos\.com$
+(^|\.)fc-feed\.cdn\.bcebos\.com$
+(^|\.)fclick\.baidu\.com$
+(^|\.)feed\.baidu\.com$
+(^|\.)fexclick\.baidu\.com$
+(^|\.)g\.baidu\.com$
+(^|\.)gimg\.baidu\.com$
+(^|\.)guanjia\.baidu\.com$
+(^|\.)idm-su\.baidu\.com$
+(^|\.)idm\.bce\.baidu\.com$
+(^|\.)iebar\.baidu\.com$
+(^|\.)ikcode\.baidu\.com$
+(^|\.)img01\.taotaosou\.cn$
+(^|\.)img\.taotaosou\.cn$
 (^|\.)itsdata\.map\.baidu\.com$
+(^|\.)j\.br\.baidu\.com$
+(^|\.)kstj\.baidu\.com$
+(^|\.)log\.music\.baidu\.com$
 (^|\.)log\.nuomi\.com$
+(^|\.)m1\.baidu\.com$
 (^|\.)mg09\.zhaopin\.com$
+(^|\.)mipcache\.bdstatic\.com$
+(^|\.)mpro\.baidu\.com$
+(^|\.)msite\.baidu\.com$
+(^|\.)neirong\.baidu\.com$
+(^|\.)nsclickvideo\.baidu\.com$
+(^|\.)openrcv\.baidu\.com$
+(^|\.)pc\.videoclick\.baidu\.com$
+(^|\.)pos\.baidu\.com$
+(^|\.)pups\.bdimg\.com$
 (^|\.)push\.music\.baidu\.com$
 (^|\.)push\.zhanzhang\.baidu\.com$
 (^|\.)qchannel0\d\.cn$
+(^|\.)qianclick\.baidu\.com$
+(^|\.)release\.baidu\.com$
 (^|\.)res\.limei\.com$
+(^|\.)res\.mi\.baidu\.com$
+(^|\.)rigel\.baidustatic\.com$
+(^|\.)river\.zhidao\.baidu\.com$
+(^|\.)rplog\.baidu\.com$
+(^|\.)s\.baidu\.com$
+(^|\.)s\.cpro\.baidu\.com$
+(^|\.)sa\.tuisong\.baidu\.com$
+(^|\.)sclick\.baidu\.com$
+(^|\.)sestat\.baidu\.com$
+(^|\.)shadu\.baidu\.com$
+(^|\.)share\.baidu\.com$
 (^|\.)shifen\.com$
+(^|\.)snippet\.pos\.baidu\.com$
+(^|\.)sobar\.baidu\.com$
+(^|\.)sobartop\.baidu\.com$
+(^|\.)stat\.v\.baidu\.com$
+(^|\.)su\.bdimg\.com$
+(^|\.)su\.bdstatic\.com$
+(^|\.)t10\.baidu\.com$
+(^|\.)t11\.baidu\.com$
+(^|\.)t12\.baidu\.com$
+(^|\.)tkweb\.baidu\.com$
+(^|\.)tob-cms\.bj\.bcebos\.com$
+(^|\.)toolbar\.baidu\.com$
+(^|\.)tracker\.baidu\.com$
+(^|\.)tuijian\.baidu\.com$
+(^|\.)uat1\.bfsspadserver\.8le8le\.com$
+(^|\.)ubmcmm\.baidustatic\.com$
+(^|\.)ulic\.baidu\.com$
 (^|\.)ulog\.imap\.baidu\.com$
+(^|\.)unionimage\.baidu\.com$
+(^|\.)vv84\.bj\.bcebos\.com$
+(^|\.)w\.gdown\.baidu\.com$
+(^|\.)w\.x\.baidu\.com$
+(^|\.)weishi\.baidu\.com$
+(^|\.)wenku-cms\.bj\.bcebos\.com$
 (^|\.)wisepush\.video\.baidu\.com$
+(^|\.)wn\.pos\.baidu\.com$
 (^|\.)zz\.bdstatic\.com$
+(^|\.)zzy1\.quyaoya\.com$
 
 # Apple
 (^|\.)adserver\.unityads\.unity3d\.com$
@@ -229,6 +361,7 @@
 (^|\.)admob\.com$
 (^|\.)ads\.gmodules\.com$
 (^|\.)ads\.google\.com$
+(^|\.)adservice\.google\.com$
 (^|\.)afd\.l\.google\.com$
 (^|\.)badad\.googleplex\.com$
 (^|\.)csi\.gstatic\.com$
@@ -275,7 +408,9 @@
 (^|\.)(corp|gg|message|tuiguang)\.meitu\.com$
 (^|\.)(dc|mdc|rabbit)\.meitustat\.com$
 (^|\.)a\.koudai\.com$
+(^|\.)adui\.tg\.meitu\.com$
 (^|\.)meitubeauty\.meitudata\.com$
+(^|\.)rabbit\.tg\.meitu\.com$
 (^|\.)xiuxiu\.android\.dl\.meitu\.com$
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
@@ -445,10 +580,10 @@
 # iqiyi PPS 爱奇艺
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)afp\.iqiyi\.com$
-(^|\.)api\.cupid\.iqiyi\.com$
 (^|\.)c\.uaa\.iqiyi\.com$
 (^|\.)cloudpush\.iqiyi\.com$
 (^|\.)cm\.passport\.iqiyi\.com$
+(^|\.)cupid\.iqiyi\.com$
 (^|\.)emoticon\.sns\.iqiyi\.com$
 (^|\.)gamecenter\.iqiyi\.com$
 (^|\.)hotchat-im\.iqiyi\.com$
@@ -458,7 +593,6 @@
 (^|\.)msg1\.video\.qiyi\.com$
 (^|\.)msg2\.video\.qiyi\.com$
 (^|\.)msg\.71\.am$
-(^|\.)msga\.cupid\.iqiyi\.com$
 (^|\.)paopao\.iqiyi\.com$
 (^|\.)paopao\d\.qiyipic\.com$
 (^|\.)policy\.video\.iqiyi\.com$
@@ -479,21 +613,22 @@
 (^|\.)static\.app\.m\.letv\.com$
 
 # MGTV 芒果TV
-(^|\.)(bs|log|x)\.da\.hunantv\.com$
+(^|\.)(click|da|log|p2|res)\.hunantv\.com$
+(^|\.)da\.mgtv\.com$
 (^|\.)log\.v2\.hunantv\.com$
-(^|\.)mp4\.res\.hunantv\.com$
-(^|\.)p2\.hunantv\.com$
 
 # Sohu 搜狐
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
-(^|\.)(adnet|aty|hui|wan|yule|pv)\.sohu\.com$
+(^|\.)(ads|adnet|aty|epro|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
+(^|\.)(inte|lu|theta)\.sogoucdn\.com$
 (^|\.)api\.k\.sohu\.com$
 (^|\.)count\.vrs\.sohu\.com$
+(^|\.)data\.vod\.itc\.cn$
+(^|\.)go\.sohu\.com$
 (^|\.)goto\.sms\.sohu\.com$
-(^|\.)i\.go\.sohu\.com$
+(^|\.)imp\.optaim\.com$
 (^|\.)pv\.ott\.hd\.sohu\.com$
-(^|\.)s\.go\.sohu\.com$
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)zz\.m\.sohu\.com$
 
@@ -1195,6 +1330,11 @@
 (^|\.)alphassl\.com$
 (^|\.)edu\.cn$
 
+# Spark
+(^|\.)amplitude\.com$
+(^|\.)firebaseio\.com$
+(^|\.)hockeyapp\.net$
+(^|\.)smartmailcloud\.com$
 
 # TaoBao
 (^|\.)alibaba\.com$
