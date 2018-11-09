@@ -6,7 +6,6 @@
 * **[Quantumult.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult.conf)**（2000+条，带Filter Action）：主要是同步lhie1 配置，简化广告规则
 * **[Quantumult_Lite.conf](https://raw.githubusercontent.com/shigalin/Config/master/Quantumult_Lite.conf)**（不带Filter Action）：主要是同步lhie1 配置，尽量简化广告规则
 * **[banAD.acl](https://raw.githubusercontent.com/shigalin/Config/master/banAD.acl)**：适用Android上SSR的规则，默认代理，屏蔽广告
-* **[fullgfwlist.acl](https://raw.githubusercontent.com/shigalin/Config/master/fullgfwlist.acl)**：适用Android上SSR、影梭的规则，gfwlist版
 
 # Quantumult规则使用：
 1. 进入Settings — Favorites
