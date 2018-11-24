@@ -31,38 +31,7 @@
 # 禁止访问列表
 
 # 广告关键词
-(^|\.)\w*admarvel\w*\.\w*$
-(^|\.)\w*admaster\w*\.\w*$
-(^|\.)\w*adsage\w*\.\w*$
-(^|\.)\w*adsensor\w*\.\w*$
-(^|\.)\w*adservice\w*\.\w*$
-(^|\.)\w*adsh\w*\.\w*$
-(^|\.)\w*adsmogo\w*\.\w*$
-(^|\.)\w*adsrvmedia\w*\.\w*$
-(^|\.)\w*adsserving\w*\.\w*$
-(^|\.)\w*adwords\w*\.\w*$
-(^|\.)\w*analysis\w*\.\w*$
-(^|\.)\w*analytics\w*\.\w*$
-(^|\.)\w*applovin\w*\.\w*$
-(^|\.)\w*duomeng\w*\.\w*$
-(^|\.)\w*dwtrack\w*\.\w*$
-(^|\.)\w*guanggao\w*\.\w*$
-(^|\.)\w*lianmeng\w*\.\w*$
-(^|\.)\w*monitor\w*\.\w*$
-(^|\.)\w*openx\w*\.\w*$
-(^|\.)\w*partnerad\w*\.\w*$
-(^|\.)\w*socdm\w*\.\w*$
-(^|\.)\w*supersonicads\w*\.\w*$
-(^|\.)\w*tracking\w*\.\w*$
-(^|\.)\w*traffic\w*\.\w*$
-(^|\.)\w*uedas\w*\.\w*$
-(^|\.)\w*umeng\w*\.\w*$
-(^|\.)\w*usage\w*\.\w*$
-(^|\.)\w*wlmonitor\w*\.\w*$
-(^|\.)\w*zjtoolbar\w*\.\w*$
-(^|\.)ad\d{0,3}\..*$
-(^|\.)ads\d{0,3}\..*$
-(^|\.)tracking\..*$
+
 
 # 163
 (^|\.)(adgeo|bobo|fa|g|g1|gb|nex)(\.corp|)\.163\.com$
