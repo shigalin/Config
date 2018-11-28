@@ -7559,7 +7559,9 @@
 (^|\.)flzbcdn\.xyz$
 
 #List
+(^|\.)akamaized\.net$
 (^|\.)urlload\.net$
+(^|\.)foxplay\.com$
 (^|\.)foxplus\.com$
 (^|\.)ping\.pe$
 (^|\.)tvb\.com$
