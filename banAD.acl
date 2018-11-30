@@ -1,12 +1,7 @@
 #**********************************************************************
-# 11.24
-# 2018年11月24日11:17:11
-# 转载需要注明版权和来源
+# 2018年11月30日
 #
-# 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
-#
-# 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
-# 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+# 参照ACL4SSR规则改编，致谢!! https://github.com/ACL4SSR/ACL4SSR
 #
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
@@ -7426,6 +7421,7 @@
 
 # Hulu
 (^|\.)hulu\.com$
+(^|\.)hulustream\.com$
 
 # Instagram
 (^|\.)\w*instagram\w*\.\w*$
