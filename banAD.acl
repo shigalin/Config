@@ -7447,6 +7447,7 @@
 (^|\.)reddit\.com$
 (^|\.)teddysun\.com$
 (^|\.)unsplash\.com$
+(^|\.)services\.googleapis\.cn$
 
 # APKPURE
 (^|\.)apkpure\.com$
