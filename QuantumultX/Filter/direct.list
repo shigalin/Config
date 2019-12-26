@@ -325,11 +325,9 @@ DOMAIN,images-cn.ssl-images-amazon.com,direct
 
 # DNSPod Public DNS+
 IP-CIDR,119.28.28.28/32,direct
-# GeoIP China
-GEOIP,CN,direct
+
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
-geoip, cn, direct
