@@ -1,0 +1,23 @@
+//Google
+DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
+DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
+DOMAIN-SUFFIX,goo.gl,✔️GOOGLE,force-remote-dns
+DOMAIN-SUFFIX,ggpht.com,✔️GOOGLE,force-remote-dns
+DOMAIN-SUFFIX,google.com,✔️GOOGLE,force-remote-dns
+DOMAIN-SUFFIX,googleapis.com,✔️GOOGLE,force-remote-dns
+DOMAIN-KEYWORD,gmail,✔️GOOGLE,force-remote-dns
+DOMAIN-KEYWORD,google,✔️GOOGLE,force-remote-dns
+DOMAIN-KEYWORD,gstatic,✔️GOOGLE,force-remote-dns
+DOMAIN-SUFFIX,ytimg.com,✔️GOOGLE
+// YouTube Music
+USER-AGENT,*youtubemusic*,✔️Google
+USER-AGENT,YouTubeMusic*,✔️Google
+// YouTube
+USER-AGENT,*youtube*,✔️Google
+USER-AGENT,YouTube*,✔️Google
+DOMAIN-KEYWORD,youtube,✔️Google
+DOMAIN-SUFFIX,googlevideo.com,✔️Google
+DOMAIN-SUFFIX,gvt2.com,✔️Google
+DOMAIN-SUFFIX,youtu.be,✔️Google
+DOMAIN-SUFFIX,youtubei.googleapis.com,✔️Google
+DOMAIN-SUFFIX,yt3.ggpht.com,✔️Google
