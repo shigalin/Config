@@ -1,0 +1,33 @@
+# HBO NOW
+USER-AGENT,HBO%20NOW*,✔️HKMedia
+DOMAIN-SUFFIX,hbo.com,✔️HKMedia
+DOMAIN-SUFFIX,hbogo.com,✔️HKMedia
+DOMAIN-SUFFIX,hbonow.com,✔️HKMedia
+# HBO GO HKG
+USER-AGENT,HBO%20GO%20PROD%20HKG*,✔️HKMedia
+DOMAIN-SUFFIX,hbogoasia.com,✔️HKMedia
+DOMAIN-SUFFIX,hbogoasia.hk,✔️HKMedia
+DOMAIN,bcbolthboa-a.akamaihd.net,✔️HKMedia
+DOMAIN,players.brightcove.net,✔️HKMedia
+DOMAIN,s3-ap-southeast-1.amazonaws.com,✔️HKMedia
+DOMAIN,dai3fd1oh325y.cloudfront.net,✔️HKMedia
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,✔️HKMedia
+DOMAIN,hboasia1-i.akamaihd.net,✔️HKMedia
+DOMAIN,hboasia2-i.akamaihd.net,✔️HKMedia
+DOMAIN,hboasia3-i.akamaihd.net,✔️HKMedia
+DOMAIN,hboasia4-i.akamaihd.net,✔️HKMedia
+DOMAIN,hboasia5-i.akamaihd.net,✔️HKMedia
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,✔️HKMedia
+# myTV SUPER
+USER-AGENT,mytv*,✔️HKMedia
+DOMAIN-SUFFIX,mytvsuper.com,✔️HKMedia
+DOMAIN-SUFFIX,tvb.com,✔️HKMedia
+# ViuTV
+USER-AGENT,Viu*,✔️HKMedia
+USER-AGENT,ViuTV*,✔️HKMedia
+DOMAIN-SUFFIX,viu.com,✔️HKMedia
+DOMAIN-SUFFIX,viu.tv,✔️HKMedia
+DOMAIN,api.viu.now.com,✔️HKMedia
+DOMAIN,d1k2us671qcoau.cloudfront.net,✔️HKMedia
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,✔️HKMedia
+DOMAIN,dfp6rglgjqszk.cloudfront.net,✔️HKMedia
