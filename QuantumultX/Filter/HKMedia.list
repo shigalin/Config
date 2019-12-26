@@ -1,3 +1,10 @@
+USER-AGENT,*nowe*,✔️HKMedia
+DOMAIN-SUFFIX,now.com,✔️HKMedia
+DOMAIN-SUFFIX,nowe.com,✔️HKMedia
+DOMAIN-SUFFIX,nowestatic.com,✔️HKMedia
+DOMAIN-SUFFIX,youboranqs01.com,✔️HKMedia
+USER-AGENT,*PCCW*,✔️HKMedia
+USER-AGENT,*pccw*,✔️HKMedia
 # HBO NOW
 USER-AGENT,HBO%20NOW*,✔️HKMedia
 DOMAIN-SUFFIX,hbo.com,✔️HKMedia
