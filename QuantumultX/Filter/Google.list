@@ -1,13 +1,13 @@
 //Google
 DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
 DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
-DOMAIN-SUFFIX,goo.gl,✔️GOOGLE,force-remote-dns
-DOMAIN-SUFFIX,ggpht.com,✔️GOOGLE,force-remote-dns
-DOMAIN-SUFFIX,google.com,✔️GOOGLE,force-remote-dns
-DOMAIN-SUFFIX,googleapis.com,✔️GOOGLE,force-remote-dns
-DOMAIN-KEYWORD,gmail,✔️GOOGLE,force-remote-dns
-DOMAIN-KEYWORD,google,✔️GOOGLE,force-remote-dns
-DOMAIN-KEYWORD,gstatic,✔️GOOGLE,force-remote-dns
+DOMAIN-SUFFIX,goo.gl,✔️GOOGLE
+DOMAIN-SUFFIX,ggpht.com,✔️GOOGLE
+DOMAIN-SUFFIX,google.com,✔️GOOGLE
+DOMAIN-SUFFIX,googleapis.com,✔️GOOGLE
+DOMAIN-KEYWORD,gmail,✔️GOOGLE
+DOMAIN-KEYWORD,google,✔️GOOGLE
+DOMAIN-KEYWORD,gstatic,✔️GOOGLE
 DOMAIN-SUFFIX,ytimg.com,✔️GOOGLE
 // YouTube Music
 USER-AGENT,*youtubemusic*,✔️Google
