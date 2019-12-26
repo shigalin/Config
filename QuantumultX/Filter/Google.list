@@ -1,14 +1,14 @@
 //Google
 DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
 DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
-DOMAIN-SUFFIX,goo.gl,✔️GOOGLE
-DOMAIN-SUFFIX,ggpht.com,✔️GOOGLE
-DOMAIN-SUFFIX,google.com,✔️GOOGLE
-DOMAIN-SUFFIX,googleapis.com,✔️GOOGLE
-DOMAIN-KEYWORD,gmail,✔️GOOGLE
-DOMAIN-KEYWORD,google,✔️GOOGLE
-DOMAIN-KEYWORD,gstatic,✔️GOOGLE
-DOMAIN-SUFFIX,ytimg.com,✔️GOOGLE
+DOMAIN-SUFFIX,goo.gl,✔️Google
+DOMAIN-SUFFIX,ggpht.com,✔️Google
+DOMAIN-SUFFIX,google.com,✔️Google
+DOMAIN-SUFFIX,googleapis.com,✔️Google
+DOMAIN-KEYWORD,gmail,✔️Google
+DOMAIN-KEYWORD,google,✔️Google
+DOMAIN-KEYWORD,gstatic,✔️Google
+DOMAIN-SUFFIX,ytimg.com,✔️Google
 // YouTube Music
 USER-AGENT,*youtubemusic*,✔️Google
 USER-AGENT,YouTubeMusic*,✔️Google
