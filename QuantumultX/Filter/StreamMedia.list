@@ -1,0 +1,27 @@
+# Disney+
+DOMAIN-SUFFIX,disneyplus.com,✔️StreamMedia
+DOMAIN-SUFFIX,disney-plus.net,✔️StreamMedia
+DOMAIN-SUFFIX,dssott.com,✔️StreamMedia
+# AbemaTV
+USER-AGENT,AbemaTV*,✔️StreamMedia
+DOMAIN-SUFFIX,abema.io,✔️StreamMedia
+DOMAIN-SUFFIX,ameba.jp,✔️StreamMedia
+DOMAIN-SUFFIX,abema.tv,✔️StreamMedia
+DOMAIN-SUFFIX,hayabusa.io,✔️StreamMedia
+DOMAIN,abematv.akamaized.net,✔️StreamMedia
+DOMAIN,ds-linear-abematv.akamaized.net,✔️StreamMedia
+DOMAIN,ds-vod-abematv.akamaized.net,✔️StreamMedia
+DOMAIN,linear-abematv.akamaized.net,✔️StreamMedia
+# Amazon Prime Video
+USER-AGENT,InstantVideo.US*,✔️StreamMedia
+USER-AGENT,Prime%20Video*,✔️StreamMedia
+DOMAIN-SUFFIX,aiv-cdn.net,✔️StreamMedia
+DOMAIN-SUFFIX,aiv-delivery.net,✔️StreamMedia
+DOMAIN-SUFFIX,amazonvideo.com,✔️StreamMedia
+DOMAIN-SUFFIX,primevideo.com,✔️StreamMedia
+DOMAIN,avodmp4s3ww-a.akamaihd.net,✔️StreamMedia
+DOMAIN,d25xi40x97liuc.cloudfront.net,✔️StreamMedia
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,✔️StreamMedia
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,✔️StreamMedia
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,✔️StreamMedia
+DOMAIN-KEYWORD,avoddashs,✔️StreamMedia
