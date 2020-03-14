@@ -1,4 +1,8 @@
 # China Area Network
+# 抖音
+USER-AGENT,*Aweme*
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,douyincdn.com
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com
