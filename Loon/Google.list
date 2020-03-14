@@ -1,1 +1,23 @@
-
+//Google
+//DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
+//DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gstatic
+DOMAIN-SUFFIX,ytimg.com
+// YouTube Music
+USER-AGENT,*youtubemusic*
+USER-AGENT,YouTubeMusic*
+// YouTube
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,yt3.ggpht.com
