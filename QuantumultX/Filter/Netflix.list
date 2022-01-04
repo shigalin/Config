@@ -4,6 +4,7 @@ host-keyword,netflix,✔️Netflix
 host-keyword,nflx,✔️Netflix
 host-keyword,dualstack.apiproxy-,✔️Netflix
 host-keyword,dualstack.ichnaea-web-,✔️Netflix
+host-suffix,fast.com,✔️Netflix
 host-suffix,netflix.com.edgesuite.net,✔️Netflix
 host-suffix,netflix.com,✔️Netflix
 host-suffix,netflix.net,✔️Netflix
