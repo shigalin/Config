@@ -1,6 +1,11 @@
 # Disney+
 USER-AGENT,DPlus*,✔️StreamMedia
 USER-AGENT,discovery+*,✔️StreamMedia
+DOMAIN,cdn.registerdisney.go.com,✔️StreamMedia
+DOMAIN-SUFFIX,edge.bamgrid.com,✔️StreamMedia
+DOMAIN-SUFFIX,dssott-cds.s.llnwi.net,✔️StreamMedia
+DOMAIN-SUFFIX,alphacdn.net,✔️StreamMedia
+DOMAIN-SUFFIX,dss.map.fastly.net,✔️StreamMedia
 DOMAIN-SUFFIX,disneyplus.com,✔️StreamMedia
 DOMAIN-SUFFIX,disney-plus.net,✔️StreamMedia
 DOMAIN-SUFFIX,disco-api.com,✔️StreamMedia
