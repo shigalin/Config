@@ -1,6 +1,13 @@
 # Disney+
+USER-AGENT,DPlus*,✔️StreamMedia
+USER-AGENT,discovery+*,✔️StreamMedia
 DOMAIN-SUFFIX,disneyplus.com,✔️StreamMedia
-DOMAIN-SUFFIX,disney-plus.net,✔️StreamMedia
+DOMAIN-SUFFIX,disneyplus.net,✔️StreamMedia
+DOMAIN-SUFFIX,disco-api.com,✔️StreamMedia
+DOMAIN-SUFFIX,discoveryplus.co.uk,✔️StreamMedia
+DOMAIN-SUFFIX,discoveryplus.com,✔️StreamMedia
+DOMAIN-SUFFIX,discoveryplus.in,✔️StreamMedia
+DOMAIN-SUFFIX,dnitv.com,✔️StreamMedia
 DOMAIN-SUFFIX,dssott.com,✔️StreamMedia
 # AbemaTV
 USER-AGENT,AbemaTV*,✔️StreamMedia
