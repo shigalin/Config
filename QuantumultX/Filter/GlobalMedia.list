@@ -1,6 +1,11 @@
 # Disney+
-DOMAIN-SUFFIX,disneyplus.com,✔️GlobalMedia
-DOMAIN-SUFFIX,disney-plus.net,✔️GlobalMedia
+USER-AGENT,DPlus*,✔️GlobalMedia
+USER-AGENT,discovery+*,✔️GlobalMedia
+DOMAIN-SUFFIX,disco-api.com,✔️GlobalMedia
+DOMAIN-SUFFIX,discoveryplus.co.uk,✔️GlobalMedia
+DOMAIN-SUFFIX,discoveryplus.com,✔️GlobalMedia
+DOMAIN-SUFFIX,discoveryplus.in,✔️GlobalMedia
+DOMAIN-SUFFIX,dnitv.com,✔️GlobalMedia
 DOMAIN-SUFFIX,dssott.com,✔️GlobalMedia
 # Netflix
 USER-AGENT,Argo*,✔️GlobalMedia
