@@ -14,6 +14,16 @@ DOMAIN-SUFFIX,discoveryplus.com,✔️StreamMedia
 DOMAIN-SUFFIX,discoveryplus.in,✔️StreamMedia
 DOMAIN-SUFFIX,dnitv.com,✔️StreamMedia
 DOMAIN-SUFFIX,dssott.com,✔️StreamMedia
+
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com,✔️StreamMedia
+DOMAIN-SUFFIX,disneyplus.bn5x.net,✔️StreamMedia
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,✔️StreamMedia
+DOMAIN-SUFFIX,dssott.com.akamaized.net,✔️StreamMedia
+DOMAIN-SUFFIX,disneynow.com,✔️StreamMedia
+DOMAIN-SUFFIX,disneyjunior.com,✔️StreamMedia
+DOMAIN-SUFFIX,search-api-disney.bamgrid.com,✔️StreamMedia
+DOMAIN-SUFFIX,braze.com,✔️StreamMedia
+DOMAIN-SUFFIX,bamgrid.com,✔️StreamMedia
 # AbemaTV
 USER-AGENT,AbemaTV*,✔️StreamMedia
 DOMAIN-SUFFIX,abema.io,✔️StreamMedia
