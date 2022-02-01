@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,disneyjunior.com,✔️StreamMedia
 DOMAIN-SUFFIX,search-api-disney.bamgrid.com,✔️StreamMedia
 DOMAIN-SUFFIX,braze.com,✔️StreamMedia
 DOMAIN-SUFFIX,bamgrid.com,✔️StreamMedia
+DOMAIN,disney.my.sentry.io,✔️StreamMedia
 # AbemaTV
 USER-AGENT,AbemaTV*,✔️StreamMedia
 DOMAIN-SUFFIX,abema.io,✔️StreamMedia
